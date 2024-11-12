@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EsepWebhook", "EsepWebhook", "{7393FAE4-25CA-4BF7-97A1-67863E32FDD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{890988E3-4B21-4F3A-B128-E2EF4A35C3BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsepWebhook", "EsepWebhook\src\EsepWebhook\EsepWebhook.csproj", "{6C3E524E-67AB-483A-87A6-1EE3CF53C161}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B3A25D0C-16FA-4815-BEE8-078A3CC381AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsepWebhook.Tests", "EsepWebhook\test\EsepWebhook.Tests\EsepWebhook.Tests.csproj", "{2BDE8E35-12C7-41D5-A542-BC13CA84CB72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3E524E-67AB-483A-87A6-1EE3CF53C161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3E524E-67AB-483A-87A6-1EE3CF53C161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3E524E-67AB-483A-87A6-1EE3CF53C161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3E524E-67AB-483A-87A6-1EE3CF53C161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDE8E35-12C7-41D5-A542-BC13CA84CB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDE8E35-12C7-41D5-A542-BC13CA84CB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDE8E35-12C7-41D5-A542-BC13CA84CB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDE8E35-12C7-41D5-A542-BC13CA84CB72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{890988E3-4B21-4F3A-B128-E2EF4A35C3BF} = {7393FAE4-25CA-4BF7-97A1-67863E32FDD3}
+		{6C3E524E-67AB-483A-87A6-1EE3CF53C161} = {890988E3-4B21-4F3A-B128-E2EF4A35C3BF}
+		{B3A25D0C-16FA-4815-BEE8-078A3CC381AC} = {7393FAE4-25CA-4BF7-97A1-67863E32FDD3}
+		{2BDE8E35-12C7-41D5-A542-BC13CA84CB72} = {B3A25D0C-16FA-4815-BEE8-078A3CC381AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {568D0F77-72C2-42E8-82BD-8CF8A4B71F78}
+	EndGlobalSection
+EndGlobal
