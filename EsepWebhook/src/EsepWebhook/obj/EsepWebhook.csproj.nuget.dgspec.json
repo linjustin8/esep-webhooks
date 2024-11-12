@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {}
+    "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\esepwebhook\\EsepWebhook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj": {
+    "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\esepwebhook\\EsepWebhook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectUniqueName": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\esepwebhook\\EsepWebhook.csproj",
         "projectName": "EsepWebhook",
-        "projectPath": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\EsepWebhook.csproj",
+        "projectPath": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\esepwebhook\\EsepWebhook.csproj",
         "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\EsepWebhook\\obj\\",
+        "outputPath": "C:\\Users\\justi\\Documents\\F24\\CIS4930\\ass 9\\esep-webhooks\\EsepWebhook\\src\\esepwebhook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,6 +56,10 @@
             "Amazon.Lambda.Serialization.SystemTextJson": {
               "target": "Package",
               "version": "[2.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
